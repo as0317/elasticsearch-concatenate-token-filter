@@ -2,12 +2,11 @@ package elasticsearch.concatenate;
 
 import java.util.Collection;
 
-import org.elasticsearch.common.collect.Lists;
 import org.elasticsearch.common.component.LifecycleComponent;
 import org.elasticsearch.common.inject.Module;
-import org.elasticsearch.plugins.AbstractPlugin;
+import org.elasticsearch.plugins.Plugin;
 
-public class ConcatenatePlugin extends AbstractPlugin {
+public class ConcatenatePlugin extends Plugin {
     @Override
     public String name() {
         return "ConcatenatePlugin";
